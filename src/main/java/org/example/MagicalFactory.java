@@ -3,8 +3,8 @@ package org.example;
 // Concrete factory for creating players and dice
 class MagicalFactory implements Factory {
     @Override
-    public Player createPlayer(int health, int strength, int attack) {
-        return new Player(health, strength, attack);
+    public Player createPlayer(int health, int strength, int attack, String username, Observer observer) {
+        return new Player(health, strength, attack, username, observer);
     }
 
     @Override

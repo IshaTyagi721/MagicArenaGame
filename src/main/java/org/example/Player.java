@@ -5,20 +5,18 @@ class Player {
     private int health;
     private int strength;
     private int attack;
+    private String username;
 
     //Can be a list if there were more than one observer subscribing to a player
     private Observer observer;
 
-    public Player(int health, int strength, int attack) {
+    public Player(int health, int strength, int attack, String username, Observer observer) {
         this.health = health;
         this.strength = strength;
         this.attack = attack;
-    }
-
-    public void setObserver(Observer observer) {
+        this.username = username;
         this.observer = observer;
     }
-
     public int getHealth() {
         return health;
     }
@@ -37,6 +35,7 @@ class Player {
     public int getAttack() {
         return attack;
     }
+    public String getUsername(){return username;}
 }
 
 
