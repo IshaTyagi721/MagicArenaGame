@@ -1,6 +1,4 @@
-To play this game there are two ways you can give input:
-  Command Line
-  File
+To play this game there are two ways you can give input, the command line and a file
 When you run the program it will ask you to choose either CMD for command line or FILE for file input
 I have added a players.txt for ease of testing if you choose FILE. You are free to add your own file and test. Please check your file path and that it is correct wehn testing.
 If you choose CMD you can add values of your choice
