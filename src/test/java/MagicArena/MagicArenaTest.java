@@ -1,5 +1,8 @@
-package org.example;
+package MagicArena;
 
+import org.example.HealthObserver;
+import org.example.MagicalArena;
+import org.example.Player;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

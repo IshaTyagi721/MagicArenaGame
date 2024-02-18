@@ -1,7 +1,7 @@
 package org.example;
 
 // Player class representing a player in the arena
-class Player {
+public class Player {
     private int health;
     private int strength;
     private int attack;

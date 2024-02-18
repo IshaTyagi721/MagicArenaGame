@@ -3,7 +3,7 @@ package org.example;
 
 // We are using a Singleton class for representing the Magical Arena as we only need one
 // instance of this class per execution
-class MagicalArena {
+public class MagicalArena {
     private static MagicalArena magicalArena;
     private final Factory factory;
 
