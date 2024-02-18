@@ -2,6 +2,6 @@ package org.example;
 
 import java.io.IOException;
 
-interface InputHandler {
+public interface InputHandler {
     Player[] readInput() throws IOException;
 }

@@ -1,6 +1,8 @@
 package org.example;
 
 
+import java.nio.file.Path;
+
 // We are using a Singleton class for representing the Magical Arena as we only need one
 // instance of this class per execution
 public class MagicalArena {

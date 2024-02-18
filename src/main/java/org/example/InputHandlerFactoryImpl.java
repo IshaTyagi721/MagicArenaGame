@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-class InputHandlerFactoryImpl implements InputHandlerFactory {
+public class InputHandlerFactoryImpl implements InputHandlerFactory {
     @Override
     public InputHandler createInputHandler(InputType inputType) throws IllegalArgumentException {
         if(inputType.equals(InputType.FILE)){

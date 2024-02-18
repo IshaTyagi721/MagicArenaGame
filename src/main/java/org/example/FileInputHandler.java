@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.FileReader;
 
-class FileInputHandler implements InputHandler {
+public class FileInputHandler implements InputHandler {
     private String fileName;
 
     public FileInputHandler(String fileName) {

@@ -1,5 +1,5 @@
 package org.example;
 
-interface InputHandlerFactory {
+public interface InputHandlerFactory {
     InputHandler createInputHandler(InputType inputType);
 }
